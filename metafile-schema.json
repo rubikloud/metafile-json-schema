@@ -1,0 +1,88 @@
+ {
+   "definitions": {},
+   "$schema": "",
+   "$id": "http://example.com/root.json",
+   "type": "object",
+   "title": "Rubikloud Metafile Schema",
+   "default": null,
+   "required": [
+     "version",
+     "table_name",
+     "files"
+   ],
+   "properties": {
+     "version": {
+       "$id": "#/properties/version",
+       "type": "string",
+       "title": "Metafile Version Number",
+       "description": "The version of the metafile schema that this document conforms to",
+       "default": "1.0",
+       "examples": [
+         "1.0"
+       ],
+       "pattern": "^(1.0)$"
+     },
+     "table_name": {
+       "$id": "#/properties/table_name",
+       "type": "string",
+       "title": "Table Names",
+       "description": "The name of the table that is described by the raw files referenced in this metafile",
+       "default": "",
+       "examples": [
+         "TEST"
+       ],
+       "pattern": "^(.+)$"
+     },
+     "files": {
+       "$id": "#/properties/files",
+       "type": "array",
+       "title": "Files List",
+       "description": "List of files that are to be used for this table",
+       "default": null,
+       "minItems": 1,
+       "items": {
+         "$id": "#/properties/files/items",
+         "type": "object",
+         "title": "The Items Schema",
+         "required": [
+           "file_name",
+           "md5sum"
+         ],
+         "properties": {
+           "file_name": {
+             "$id": "#/properties/files/items/properties/file_name",
+             "type": "string",
+             "title": "File Name",
+             "default": "",
+             "examples": [
+               "data.csv"
+             ],
+             "pattern": "^(.*)(\\.(csv|txt)(\\.gz)?|\\.zip)$"
+           },
+           "line_count": {
+             "$id": "#/properties/files/items/properties/line_count",
+             "type": "integer",
+             "title": "Line Count",
+             "description": "Number of lines in the data file",
+             "default": 0,
+             "examples": [
+               1,
+               1000000,
+               920248
+             ]
+           },
+           "md5sum": {
+             "$id": "#/properties/files/items/properties/md5sum",
+             "type": "string",
+             "title": "The Md5sum Schema",
+             "default": "",
+             "examples": [
+               "b78c083cd1a37dfa58992844a139fff2"
+             ],
+             "pattern": "^([a-f0-9]{32})$"
+           }
+         }
+       }
+     }
+   }
+ }

@@ -1,0 +1,89 @@
+{
+"version": "1.0",
+"table_name": "LOY",
+"files": [
+{
+"file_name": "RK_LOY_20170804_144259.0aa.csv.gz",
+"line_count":228195,
+"md5sum": "6c9841a0931a0d4e3a023cedc42480ba"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0ab.csv.gz",
+"line_count":228195,
+"md5sum": "1054c093ccd9c66ac500610fe5702c0d"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0ac.csv.gz",
+"line_count":228195,
+"md5sum": "13da17db481d9832a052df114d92bb3e"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0ad.csv.gz",
+"line_count":228195,
+"md5sum": "fc0a6a8ad67e5a13c8c834fee95185ee"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0ae.csv.gz",
+"line_count":228195,
+"md5sum": "2add6a8456da4a5677dc94b9602acab8"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0af.csv.gz",
+"line_count":228195,
+"md5sum": "2011928b8a05a80387074531475ae595"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0ag.csv.gz",
+"line_count":228195,
+"md5sum": "8ae0e7e0328ad0f957324a4823384e67"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0ah.csv.gz",
+"line_count":228195,
+"md5sum": "728b0aa3a3ff96eca51878215e0cdcf0"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0ai.csv.gz",
+"line_count":228195,
+"md5sum": "7b0803066455aaa1f1935b8df3533442"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0aj.csv.gz",
+"line_count":228195,
+"md5sum": "59eaa903af9c0f97bc4d76caacc5bb3d"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0ak.csv.gz",
+"line_count":228195,
+"md5sum": "355ba943a8f104e2c664ab6621e9d27b"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0al.csv.gz",
+"line_count":228195,
+"md5sum": "499c5528d56ee77d3379798369a17c3e"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0am.csv.gz",
+"line_count":228195,
+"md5sum": "086c0248d1c06aa4b4de0572cfa17a04"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0an.csv.gz",
+"line_count":228188,
+"md5sum": "abeda05cff8f3c54ce381a1bd65addf4"
+}
+]
+}

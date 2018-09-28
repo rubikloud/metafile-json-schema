@@ -1,0 +1,17 @@
+{
+"version": "1.0",
+"table_name": "",
+"files": [
+{
+"file_name": "RK_LOY_20170804_144259.0aa.csv.gz",
+"line_count":228195,
+"md5sum": "6c9841a0931a0d4e3a023cedc42480ba"
+}
+,
+{
+"file_name": "RK_LOY_20170804_144259.0ab.csv.gz",
+"line_count":228195,
+"md5sum": "1054c093ccd9c66ac500610fe5702c0d"
+}
+]
+}
