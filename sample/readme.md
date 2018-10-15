@@ -1,37 +1,41 @@
 Metafile Generator Sample
--------------------------
+=========================
 
 RUNNING
-=======
+-------
 
 Given a folder with a number of comma separated value files in it;
 
+```
  /data/tills/trx_2017_01_05_1109.aaa.csv
  /data/tills/trx_2017_01_05_1109.aab.csv
  /data/tills/trx_2017_01_05_1109.aac.csv
  /data/tills/trx_2017_01_05_1109.aad.csv
+```
 
 Generator can be called with these parameters;
 
- $ generate.sh TILLS /data/tills trx_2017_01_05_1109
+`$ generate.sh TILLS /data/tills trx_2017_01_05_1109`
 
 and it will generate the following;
 
+```
  /data/tills/trx_2017_01_05_1109.aaa.csv.gz
  /data/tills/trx_2017_01_05_1109.aab.csv.gz
  /data/tills/trx_2017_01_05_1109.aac.csv.gz
  /data/tills/trx_2017_01_05_1109.aad.csv.gz
  /data/tills/trx_2017_01_05_1109.meta.json
+```
 
 Which can then be uploaded to RubiKloud in that order
 
 TESTING
-=======
+-------
 
 See generator.bats
 
 LICENSE
-=======
+-------
 
 Copyright 2018 Rubikloud Technologies Inc
 
