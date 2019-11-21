@@ -7,7 +7,8 @@ import json
 @pytest.fixture(scope="session")
 def schema():
     with open(
-        os.path.join(os.path.dirname(__file__), "..", "metafile-schema.json"), "r"
+        os.path.join(os.path.dirname(__file__), "..", "metafile-schema.json"),
+        "r",
     ) as fh:
         yield json.load(fh)
 
