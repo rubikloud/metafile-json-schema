@@ -57,7 +57,7 @@
              "examples": [
                "data.csv"
              ],
-             "pattern": "^(.*)(\\.(csv|txt)(\\.gz)?(\\.gpg)?|\\.zip)$"
+             "pattern": "^(.*)(\\.(csv|txt|Tab)(\\.gz)?(\\.gpg)?|\\.zip)$"
            },
            "line_count": {
              "$id": "#/properties/files/items/properties/line_count",
