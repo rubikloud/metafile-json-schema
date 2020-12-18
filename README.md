@@ -31,7 +31,7 @@ There are a couple of correctly formatted metafiles in the tests/pass folder.
 To check that the metafile-schema.json detects the faults correctly you can use the pytest program;
 
 ```
-$ pipenv install
+$ pipenv install --dev
 $ pipenv shell
 $ pytest
 ================================================= test session starts =================================================
